@@ -1,0 +1,318 @@
+body {
+    background: linear-gradient(112deg, #240A3A 4.96%, #0C1E39 95.28%);
+}
+
+/*header part*/
+header {
+    height: 100px;
+    width: 100%;
+
+    background: linear-gradient(112deg, #240A3A 4.96%, #0C1E39 95.28%);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    z-index: 3;
+}
+div.head-area {
+    display: flex;
+    justify-content: flex-end;
+}
+div.edge {
+    width: 100px;
+    height: 100px;
+
+    opacity: 0.3;
+    background: #FFF;
+}
+div.top-button {
+    width: auto;
+    height: 50px;
+    margin: 25px 30px 0 30px;
+
+    opacity: 30%;
+    cursor: pointer;
+}
+div.hovered {
+    opacity: 100%;
+}
+div.selected {
+    opacity: 100%;
+    border-bottom: 3px solid #FFF;
+}
+div.top-button-text {
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Bahnschrift, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*main part*/
+main {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+}
+div.content-area {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.content-gap {
+    width: 90.2%;
+    height: 94px;
+}
+div.content-box {
+    width: 90.2%;
+    height: 750px;
+
+    background: #FFF;
+}
+div.inter {
+    width: 90.2%;
+    height: 500px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.30) 100%);
+}
+
+/*content part*/
+div.title {
+    width: auto;
+    height: 70px;
+
+    color: #000;
+
+    font-family: Bahnschrift, serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+div.subtitle {
+    width: auto;
+    height: 70px;
+
+    color: #000;
+
+    font-family: Bahnschrift, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+div.main-text {
+    width: auto;
+    height: 50px;
+    margin: 0 10px;
+
+    color: #000;
+
+    font-family: Bahnschrift ,serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+div.sub-text {
+    width: auto;
+    height: 50px;
+
+    color: #000;
+
+    font-family: Bahnschrift, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+div.bolder {
+    font-weight: 600;
+}
+div.link {
+    cursor: pointer;
+}
+div.one-line {
+    display: flex;
+    flex-direction: row;
+}
+div.whale {
+    width: 500px;
+    height: 500px;
+
+    background-image: url("../main/whale.png");
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    right: 110px;
+
+    z-index: 2;
+}
+div.back-line {
+    position: absolute;
+    top: 102px;
+    right: 100px;
+
+    z-index: 1;
+}
+div.gray-line {
+    position: absolute;
+    bottom: -3653px;
+    left: 100px;
+
+    z-index: 1;
+}
+div.skill-box {
+    width: 100%;
+    height: 160px;
+    margin: 30px 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.skill-title-flow {
+    width: 135px;
+    height: 50px;
+
+    background: linear-gradient(90deg, #FFF 0%, #045CAF 100%);
+}
+div.flow-blue {
+    background: linear-gradient(90deg, #FFF 0%, #3D2FBC 100%);
+}
+div.flow-green {
+    background: linear-gradient(90deg, #FFF 0%, #12849D 100%);
+}
+div.skill-title-main {
+    width: auto;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 40px 0 0;
+
+    border: 5px solid #045CAF;
+    background: #FFF;
+
+    color: #045CAF;
+
+    text-align: center;
+    font-family: Bahnschrift, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    align-content: center;
+}
+div.title-blue {
+    color: #3D2FBC;
+    border: 5px solid #3D2FBC;
+}
+div.title-green {
+    color: #12849D;
+    border: 5px solid #12849D;
+}
+img.skill-img {
+    height: 90px;
+    margin: 0 10px 0 0;
+}
+div.project-area {
+    height: auto;
+    width: auto;
+    padding: 0 117px;
+
+    display: flex;
+    justify-content: space-between;
+}
+div.project-box {
+    height: 600px;
+    width: 420px;
+    margin: 0 10px;
+
+    background: #FFF;
+
+    /* M3/Elevation Light/3 */
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+}
+img.project-img {
+    height: 420px;
+    width: 420px;
+}
+div.project-description {
+    height: auto;
+    width: 360px;
+    margin: 0 20px;
+
+    color: #000;
+    font-family: Bahnschrift, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+div.right-align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/*footer part*/
+footer {
+    height: 100px;
+    width: 100%;
+
+    background: linear-gradient(112deg, #240A3A 4.96%, #0C1E39 95.28%);
+
+    position : fixed;
+    left: 0;
+    bottom: 0;
+
+    z-index: 3;
+}
+div.feet-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.copyright {
+    width: 741px;
+    height: 30px;
+    margin: 0 0 0 58px;
+
+    color: #FFF;
+
+    font-family: Bahnschrift, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    opacity: 30%;
+}
+div.logo {
+    width: 242px;
+    height: 45px;
+
+    background-image: url("../tail/itdice.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 30%;
+
+    position: absolute;
+    right: 111px;
+}
